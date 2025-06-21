@@ -1,5 +1,13 @@
 import React from "react";
-import { ExternalLink, Github, Globe, Code, Target } from "lucide-react";
+import {
+  ExternalLink,
+  Github,
+  Globe,
+  Code,
+  Target,
+  Linkedin,
+  Briefcase,
+} from "lucide-react";
 
 const Projects = () => {
   const projects = [
@@ -119,7 +127,7 @@ const Projects = () => {
 
         {/* Call to Action */}
         <div className="text-center mt-16">
-          <div className="bg-white rounded-xl p-8 shadow-lg max-w-2xl mx-auto">
+          <div className="bg-white rounded-xl p-8 shadow-lg max-w-2xl mx-auto flex flex-col gap-4 justify-center items-center">
             <h3 className="text-2xl font-bold text-slate-800 mb-4">
               Interessado em ver mais?
             </h3>
@@ -133,7 +141,28 @@ const Projects = () => {
               target="_blank"
             >
               <Github className="w-5 h-5" />
-              <span>Ver todos os projetos no GitHub</span>
+              <span>Ver projetos no GitHub</span>
+              <ExternalLink className="w-4 h-4" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/henrique-menezes-b5a179206/"
+              className="inline-flex items-center space-x-2 px-6 py-3 bg-blue-700 text-white rounded-lg hover:bg-blue-800 transition-colors font-medium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Linkedin className="w-5 h-5" />
+              {/* Use um ícone do LinkedIn, ex: react-icons ou lucide-react */}
+              <span>Ver perfil no LinkedIn</span>
+              <ExternalLink className="w-4 h-4" />
+            </a>
+            <a
+              href="https://file.notion.so/f/f/33379b5d-ad26-48e3-a841-237372c5f95f/8ce63825-530a-4ba8-8bf8-9a2f56f14b9c/Curriculo.pdf?table=block&id=3ef56830-5450-4d4b-b6b8-ae528f5c20a7&spaceId=33379b5d-ad26-48e3-a841-237372c5f95f&expirationTimestamp=1750572000000&signature=2n3ne93dKQNbgdY1gIFmmOCV4i-reqnxhVg3kOyv4qM&downloadName=Curri%CC%81culo.pdf"
+              className="flex items-center space-x-2 px-6 py-3 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition-colors font-medium"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Briefcase className="w-5 h-5" />
+              <span>Visualizar Currículo</span>
               <ExternalLink className="w-4 h-4" />
             </a>
           </div>

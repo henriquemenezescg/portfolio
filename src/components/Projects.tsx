@@ -156,7 +156,7 @@ const Projects = () => {
               <ExternalLink className="w-4 h-4" />
             </a>
             <a
-              href="https://file.notion.so/f/f/33379b5d-ad26-48e3-a841-237372c5f95f/8ce63825-530a-4ba8-8bf8-9a2f56f14b9c/Curriculo.pdf?table=block&id=3ef56830-5450-4d4b-b6b8-ae528f5c20a7&spaceId=33379b5d-ad26-48e3-a841-237372c5f95f&expirationTimestamp=1750572000000&signature=2n3ne93dKQNbgdY1gIFmmOCV4i-reqnxhVg3kOyv4qM&downloadName=Curri%CC%81culo.pdf"
+              href="https://www.notion.so/henriquemenezescg/Curr-culo-Certificados-162fe4648a674cc49beb94190b7c0fb1?source=copy_link"
               className="flex items-center space-x-2 px-6 py-3 bg-gray-400 text-white rounded-lg hover:bg-gray-600 transition-colors font-medium"
               target="_blank"
               rel="noopener noreferrer"
